@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "parser": "typescript-eslint-parser",
+  "plugins": [
+    "typescript"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    // known issue: https://github.com/eslint/typescript-eslint-parser/issues/77
+    "no-undef": "off",
+    "no-unused-vars": "off"
+  }
+}
